@@ -56,25 +56,25 @@ struct LocationDetailView: View {
     var content: some View {
         VStack {
             
-            Text(viewModel.location?.name ?? "")
-                .font(.ubuntu(.bold, size: 32))
-                .foregroundColor(.tabColor)
+            VStack {
+                Text(viewModel.location?.name ?? "")
+                    .font(.ubuntu(.bold, size: 32))
+                    .foregroundColor(.tabColor)
                 
-            Divider().frame(maxWidth: 240)
-            
-            VStack(spacing: 10) {
+                Divider().frame(maxWidth: 240)
+                
+                VStack(spacing: 10) {
+                    typeView
                     
-                typeView
-            
-                dimensionView
-            
-                charactersListView
+                    dimensionView
+                }
                 
-            }.padding(.top, 16)
+            }.padding(.horizontal, 20)
+               
+            charactersListView
             
             Spacer()
-            
-        }.padding(.horizontal, 20)
+        }
     }
 
     var typeView: some View {
@@ -112,29 +112,23 @@ struct LocationDetailView: View {
     
     var charactersListView: some View {
         VStack(spacing: 10) {
-            Text("Characters")
+            Text("Residents")
                 .font(.ubuntu(.bold, size: 20))
                 .foregroundColor(.tabColor)
+                .frame(maxWidth: .infinity, alignment: .leading)
+                .padding(.leading, 20)
             
             ScrollView(showsIndicators: false) {
                 LazyVStack {
-                    ForEach(viewModel.characters.indices, id: \.self) { index in
-                        let character = viewModel.characters[index]
-                        
+                    ForEach($viewModel.characters) { character in
                         CharacterCellView(character: character)
                             .onTapGesture {
-                                Globals.tabState = .characters
-                                appState.switchView = .characterDetail(id: "\(character.id ?? 0)", isFromCharacterList: true)
-                            }
-                            .onAppear {
-                                if index == viewModel.characters.count - 1 {
-                                    viewModel.requestMoreItemsIfNeeded()
-                                }
+                                appState.switchView = .characterDetail(id: "\(character.id ?? 0)", screen: .locationDetail(id: "\(viewModel.location?.id ?? 0)"))
                             }
                     }
                 }
             }
-        }
+        }.padding(.top, 18)
     }
     
     var loadingView: some View {

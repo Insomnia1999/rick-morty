@@ -8,7 +8,6 @@
 import Alamofire
 import Foundation
 import ObjectMapper
-import PromiseKit
 
 enum ApiException: Error {
     case EmptyResponse

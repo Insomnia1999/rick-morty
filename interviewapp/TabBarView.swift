@@ -16,13 +16,13 @@ struct TabBarView: View {
         AppTabBar(selectedTab: $selectedIndex) { index in
             switch index {
             case .characters:
-                CharactersView()
+                CharactersView(viewModel: CharactersViewModel(characterWorker: CharacterWorker()))
                     .environmentObject(appState)
             case .episodes:
-                CharactersView()
+                EpisodesView(viewModel: EpisodesViewModel(episodeWorker: EpisodeWorker()))
                     .environmentObject(appState)
             case .locations:
-                CharactersView()
+                LocationsView(viewModel: LocationsViewModel(locationWorker: LocationWorker()))
                     .environmentObject(appState)
             }
         }

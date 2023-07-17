@@ -1,0 +1,674 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "90B38FA0-5597-458D-BFC1-8CAFA9C7474C"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1A1DDEE9-ECF6-4091-AA34-130D3D2C0A8B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "interviewapp/Scenes/TabBarView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "1A1DDEE9-ECF6-4091-AA34-130D3D2C0A8B - 886c96fbcf500b04"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "interviewapp.TabBarView.body.getter : some"
+                  moduleName = "interviewapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chichinabo/Documents/iOS/interviewapp/interviewapp/Scenes/TabBarView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "124">
+               </Location>
+               <Location
+                  uuid = "1A1DDEE9-ECF6-4091-AA34-130D3D2C0A8B - ce52cdb46856c6d1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (interviewapp.Tab) -&gt; SwiftUI._ConditionalContent&lt;SwiftUI._ConditionalContent&lt;&lt;&lt;opaque return type of SwiftUI.View.environmentObject&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Combine.ObservableObject&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.environmentObject&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Combine.ObservableObject&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0&gt;, &lt;&lt;opaque return type of SwiftUI.View.environmentObject&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Combine.ObservableObject&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0&gt; in interviewapp.TabBarView.body.getter : some"
+                  moduleName = "interviewapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chichinabo/Documents/iOS/interviewapp/interviewapp/Scenes/TabBarView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "116">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9466258C-AD3D-488E-90F9-04E02EB4D9FD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "interviewapp/Scenes/Characters/CharactersView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4B2C3BC1-EC04-4B9D-8ADA-ED864DE919D0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "interviewapp/Scenes/Characters/CharactersViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
+            landmarkName = "fetchCharacters(for:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4B2C3BC1-EC04-4B9D-8ADA-ED864DE919D0 - 8bdc12f9bf02dcb5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 @Swift.MainActor @Sendable () -&gt; () in closure #1 @Sendable () async -&gt; () in interviewapp.CharactersViewModel.fetchCharacters(for: Swift.String) async -&gt; ()"
+                  moduleName = "interviewapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chichinabo/Documents/iOS/interviewapp/interviewapp/Scenes/Characters/CharactersViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "79"
+                  endingLineNumber = "79"
+                  offsetFromSymbolStart = "308">
+               </Location>
+               <Location
+                  uuid = "4B2C3BC1-EC04-4B9D-8ADA-ED864DE919D0 - 8bdc12f9bf02dc94"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 @Swift.MainActor @Sendable () -&gt; () in closure #1 @Sendable () async -&gt; () in interviewapp.CharactersViewModel.fetchCharacters(for: Swift.String) async -&gt; ()"
+                  moduleName = "interviewapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chichinabo/Documents/iOS/interviewapp/interviewapp/Scenes/Characters/CharactersViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "80"
+                  endingLineNumber = "80"
+                  offsetFromSymbolStart = "292">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "20B5DBF8-61CF-433A-9DD0-56807F9A91FA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "interviewapp/Scenes/Characters/CharactersViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "fetchCharacters(for:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "20B5DBF8-61CF-433A-9DD0-56807F9A91FA - 1412896994a774bd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor @Sendable () -&gt; () in closure #1 @Sendable () async -&gt; () in interviewapp.CharactersViewModel.fetchCharacters(for: Swift.String) async -&gt; ()"
+                  moduleName = "interviewapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chichinabo/Documents/iOS/interviewapp/interviewapp/Scenes/Characters/CharactersViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "20B5DBF8-61CF-433A-9DD0-56807F9A91FA - 1412896994a7749e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor @Sendable () -&gt; () in closure #1 @Sendable () async -&gt; () in interviewapp.CharactersViewModel.fetchCharacters(for: Swift.String) async -&gt; ()"
+                  moduleName = "interviewapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chichinabo/Documents/iOS/interviewapp/interviewapp/Scenes/Characters/CharactersViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "32">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2267C712-5816-461E-930B-8EC81ECC1D60"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "interviewapp/Scenes/Character Detail/CharacterDetailViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "fetchCharacterDetail()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2267C712-5816-461E-930B-8EC81ECC1D60 - 5c465d1fd662569b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for closure #1 @Sendable () async -&gt; () in interviewapp.CharacterDetailViewModel.fetchCharacterDetail() -&gt; ()"
+                  moduleName = "interviewapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chichinabo/Documents/iOS/interviewapp/interviewapp/Scenes/Character%20Detail/CharacterDetailViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "260">
+               </Location>
+               <Location
+                  uuid = "2267C712-5816-461E-930B-8EC81ECC1D60 - 5c465d1fd662575d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for closure #1 @Sendable () async -&gt; () in interviewapp.CharacterDetailViewModel.fetchCharacterDetail() -&gt; ()"
+                  moduleName = "interviewapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chichinabo/Documents/iOS/interviewapp/interviewapp/Scenes/Character%20Detail/CharacterDetailViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "236">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CD796EE6-091D-4F62-9A75-FECF422A6877"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "interviewapp/Scenes/Character Detail/CharacterDetailViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "fetchCharacterDetail()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "CD796EE6-091D-4F62-9A75-FECF422A6877 - c08b56508bafa5e5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor @Sendable () -&gt; () in closure #1 @Sendable () async -&gt; () in interviewapp.CharacterDetailViewModel.fetchCharacterDetail() -&gt; ()"
+                  moduleName = "interviewapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chichinabo/Documents/iOS/interviewapp/interviewapp/Scenes/Character%20Detail/CharacterDetailViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "CD796EE6-091D-4F62-9A75-FECF422A6877 - c08b56508bafda9f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor @Sendable () -&gt; () in closure #1 @Sendable () async -&gt; () in interviewapp.CharacterDetailViewModel.fetchCharacterDetail() -&gt; ()"
+                  moduleName = "interviewapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chichinabo/Documents/iOS/interviewapp/interviewapp/Scenes/Character%20Detail/CharacterDetailViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "32">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "423A90A3-D733-47DD-985C-AFACF37EDC9C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "interviewapp/Scenes/Episode Detail/EpisodeDetailViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "90"
+            endingLineNumber = "90"
+            landmarkName = "fetchCharactersDetail()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "423A90A3-D733-47DD-985C-AFACF37EDC9C - a727374814668b7a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #3 @Swift.MainActor @Sendable () -&gt; () in closure #1 @Sendable () async -&gt; () in interviewapp.EpisodeDetailViewModel.fetchCharactersDetail() -&gt; ()"
+                  moduleName = "interviewapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chichinabo/Documents/iOS/interviewapp/interviewapp/Scenes/Episode%20Detail/EpisodeDetailViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "90"
+                  endingLineNumber = "90"
+                  offsetFromSymbolStart = "96">
+               </Location>
+               <Location
+                  uuid = "423A90A3-D733-47DD-985C-AFACF37EDC9C - e1823d75ca2f7d79"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #4 @Swift.MainActor @Sendable () -&gt; () in closure #1 @Sendable () async -&gt; () in interviewapp.EpisodeDetailViewModel.fetchCharactersDetail() -&gt; ()"
+                  moduleName = "interviewapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chichinabo/Documents/iOS/interviewapp/interviewapp/Scenes/Episode%20Detail/EpisodeDetailViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "90"
+                  endingLineNumber = "90"
+                  offsetFromSymbolStart = "32">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "052A956A-8DEF-4946-96F8-3AF91A90DF98"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "interviewapp/Scenes/Location Detail/LocationDetailViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "89"
+            endingLineNumber = "89"
+            landmarkName = "fetchCharactersDetail()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "052A956A-8DEF-4946-96F8-3AF91A90DF98 - 1333ce38f0302e29"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for closure #1 @Sendable () async -&gt; () in interviewapp.LocationDetailViewModel.fetchCharactersDetail() -&gt; ()"
+                  moduleName = "interviewapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chichinabo/Documents/iOS/interviewapp/interviewapp/Scenes/Location%20Detail/LocationDetailViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "92"
+                  endingLineNumber = "92"
+                  offsetFromSymbolStart = "1172">
+               </Location>
+               <Location
+                  uuid = "052A956A-8DEF-4946-96F8-3AF91A90DF98 - 3b6d3110c16deba5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #3 @Swift.MainActor @Sendable () -&gt; () in closure #1 @Sendable () async -&gt; () in interviewapp.LocationDetailViewModel.fetchCharactersDetail() -&gt; ()"
+                  moduleName = "interviewapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chichinabo/Documents/iOS/interviewapp/interviewapp/Scenes/Location%20Detail/LocationDetailViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "89"
+                  endingLineNumber = "89"
+                  offsetFromSymbolStart = "80">
+               </Location>
+               <Location
+                  uuid = "052A956A-8DEF-4946-96F8-3AF91A90DF98 - 485908c2bf255da4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #4 @Swift.MainActor @Sendable () -&gt; () in closure #1 @Sendable () async -&gt; () in interviewapp.LocationDetailViewModel.fetchCharactersDetail() -&gt; ()"
+                  moduleName = "interviewapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chichinabo/Documents/iOS/interviewapp/interviewapp/Scenes/Location%20Detail/LocationDetailViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "89"
+                  endingLineNumber = "89"
+                  offsetFromSymbolStart = "32">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "77392546-4BF6-4F8E-B3EE-EBA0C020F071"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "interviewapp/Scenes/Location Detail/LocationDetailViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "fetchLocationDetail()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "80F93241-C79F-47FB-A445-D7877899A8C3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "interviewapp/Scenes/Location Detail/LocationDetailViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "76"
+            endingLineNumber = "76"
+            landmarkName = "fetchCharactersDetail()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "80F93241-C79F-47FB-A445-D7877899A8C3 - 1333ce38f0302c38"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for closure #1 @Sendable () async -&gt; () in interviewapp.LocationDetailViewModel.fetchCharactersDetail() -&gt; ()"
+                  moduleName = "interviewapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chichinabo/Documents/iOS/interviewapp/interviewapp/Scenes/Location%20Detail/LocationDetailViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "77"
+                  endingLineNumber = "77"
+                  offsetFromSymbolStart = "536">
+               </Location>
+               <Location
+                  uuid = "80F93241-C79F-47FB-A445-D7877899A8C3 - aa03b2d8720e7acd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for closure #1 @Sendable () async -&gt; () in interviewapp.LocationDetailViewModel.fetchCharactersDetail() -&gt; ()"
+                  moduleName = "interviewapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chichinabo/Documents/iOS/interviewapp/interviewapp/Scenes/Location%20Detail/LocationDetailViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "77"
+                  endingLineNumber = "77"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "80F93241-C79F-47FB-A445-D7877899A8C3 - 30c39ec9a6eb6826"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; () in interviewapp.LocationDetailViewModel.fetchCharactersDetail() -&gt; ()"
+                  moduleName = "interviewapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chichinabo/Documents/iOS/interviewapp/interviewapp/Scenes/Location%20Detail/LocationDetailViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "77"
+                  endingLineNumber = "77"
+                  offsetFromSymbolStart = "92">
+               </Location>
+               <Location
+                  uuid = "80F93241-C79F-47FB-A445-D7877899A8C3 - 200b46860ff0ca25"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for closure #1 @Sendable () async -&gt; () in interviewapp.LocationDetailViewModel.fetchCharactersDetail() -&gt; ()"
+                  moduleName = "interviewapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chichinabo/Documents/iOS/interviewapp/interviewapp/Scenes/Location%20Detail/LocationDetailViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "77"
+                  endingLineNumber = "77"
+                  offsetFromSymbolStart = "148">
+               </Location>
+               <Location
+                  uuid = "80F93241-C79F-47FB-A445-D7877899A8C3 - eb80d666ead5fff3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 @Swift.MainActor @Sendable () -&gt; () in closure #1 @Sendable () async -&gt; () in interviewapp.LocationDetailViewModel.fetchCharactersDetail() -&gt; ()"
+                  moduleName = "interviewapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chichinabo/Documents/iOS/interviewapp/interviewapp/Scenes/Location%20Detail/LocationDetailViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "76"
+                  endingLineNumber = "76"
+                  offsetFromSymbolStart = "32">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C38F4849-ACF6-4795-87E3-CBB8BB244262"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "interviewapp/Scenes/Location Detail/LocationDetailViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "81"
+            endingLineNumber = "81"
+            landmarkName = "fetchCharactersDetail()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C38F4849-ACF6-4795-87E3-CBB8BB244262 - 1333ce38f0302c84"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for closure #1 @Sendable () async -&gt; () in interviewapp.LocationDetailViewModel.fetchCharactersDetail() -&gt; ()"
+                  moduleName = "interviewapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chichinabo/Documents/iOS/interviewapp/interviewapp/Scenes/Location%20Detail/LocationDetailViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "81"
+                  endingLineNumber = "81"
+                  offsetFromSymbolStart = "820">
+               </Location>
+               <Location
+                  uuid = "C38F4849-ACF6-4795-87E3-CBB8BB244262 - 30c39ec9a6eb689a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; () in interviewapp.LocationDetailViewModel.fetchCharactersDetail() -&gt; ()"
+                  moduleName = "interviewapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chichinabo/Documents/iOS/interviewapp/interviewapp/Scenes/Location%20Detail/LocationDetailViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "81"
+                  endingLineNumber = "81"
+                  offsetFromSymbolStart = "284">
+               </Location>
+               <Location
+                  uuid = "C38F4849-ACF6-4795-87E3-CBB8BB244262 - 3b6d3110c16deaef"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #3 @Swift.MainActor @Sendable () -&gt; () in closure #1 @Sendable () async -&gt; () in interviewapp.LocationDetailViewModel.fetchCharactersDetail() -&gt; ()"
+                  moduleName = "interviewapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chichinabo/Documents/iOS/interviewapp/interviewapp/Scenes/Location%20Detail/LocationDetailViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "83"
+                  endingLineNumber = "83"
+                  offsetFromSymbolStart = "56">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BFFC5621-8387-4D21-AFCC-E8FC73FEA9E0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "interviewappTests/Mock Workers/MockCharacterWorker.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "list(searchTerms:page:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "459517C4-EEEB-4DEB-A427-49AC8920271E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "interviewappTests/ViewModels/CharacterViewModelTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
+            landmarkName = "testRequestInitialSetOfItems()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "459517C4-EEEB-4DEB-A427-49AC8920271E - 34ecf5c9bbfad539"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for interviewappTests.CharactersViewModelTests.testRequestInitialSetOfItems() async -&gt; ()"
+                  moduleName = "interviewappTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chichinabo/Documents/iOS/interviewapp/interviewappTests/ViewModels/CharacterViewModelTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "264">
+               </Location>
+               <Location
+                  uuid = "459517C4-EEEB-4DEB-A427-49AC8920271E - 34ecf5c9bbfad5bd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for interviewappTests.CharactersViewModelTests.testRequestInitialSetOfItems() async -&gt; ()"
+                  moduleName = "interviewappTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chichinabo/Documents/iOS/interviewapp/interviewappTests/ViewModels/CharacterViewModelTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "61"
+                  endingLineNumber = "61"
+                  offsetFromSymbolStart = "432">
+               </Location>
+               <Location
+                  uuid = "459517C4-EEEB-4DEB-A427-49AC8920271E - 34ecf5c9bbfaca63"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for interviewappTests.CharactersViewModelTests.testRequestInitialSetOfItems() async -&gt; ()"
+                  moduleName = "interviewappTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chichinabo/Documents/iOS/interviewapp/interviewappTests/ViewModels/CharacterViewModelTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "67"
+                  endingLineNumber = "67"
+                  offsetFromSymbolStart = "1040">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8EA48C73-559D-4AE6-AFDC-13E839B69309"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "interviewappTests/ViewModels/EpisodesViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "EpisodesViewModelTests"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8F2FFE5C-3D7C-436D-9D49-6144C5C0837E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "interviewappTests/ViewModels/CharacterViewModelTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "CharactersViewModelTests"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "ECF3E52E-E386-4FE1-8662-AD4A1B7986C9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "interviewappTests/ViewModels/EpisodesDetailViewModelTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "EpisodeDetailViewModelTests"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

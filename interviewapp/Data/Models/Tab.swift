@@ -19,22 +19,22 @@ enum Tab: Int, Identifiable, CaseIterable, Comparable {
     var icon: String {
         switch self {
         case .characters:
-            return "MapImage"
+            return "person.3.fill"
         case .locations:
-            return "FavsImage"
+            return "map.fill"
         case .episodes:
-            return "LinesImage"
+            return "tv.fill"
         }
     }
     
     var title: String {
         switch self {
         case .characters:
-            return "Personajes"
+            return "Characters"
         case .locations:
-            return "Localizaciones"
+            return "Locations"
         case .episodes:
-            return "Episodios"
+            return "Episodes"
         }
     }
     

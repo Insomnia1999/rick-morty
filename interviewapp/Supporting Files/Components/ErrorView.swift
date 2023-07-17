@@ -13,10 +13,10 @@ struct ErrorView: View {
     
     var body: some View {
         GeometryReader { geometryReader in
-            Asset.paleGray.swiftUIColor.edgesIgnoringSafeArea(.all)
+            Color.tabBackgroundColor.edgesIgnoringSafeArea(.all)
             
             VStack(alignment: .center) {
-                Image(asset: Asset.errorImage)
+                Image.errorImage
                     .resizable()
                     .frame(width: geometryReader.size.width * 0.6, height:  geometryReader.size.width * 0.6)
                 
@@ -26,7 +26,7 @@ struct ErrorView: View {
                     .padding(.top, 8)
                     .padding(.leading, 24)
                     .padding(.trailing, 24)
-                    .foregroundColor(Asset.accentColor.swiftUIColor)
+                
             }.position(x: geometryReader.frame(in: .local).midX, y: geometryReader.frame(in: .local).midY)
         }
     }

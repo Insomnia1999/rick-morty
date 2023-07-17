@@ -14,17 +14,23 @@ class LocationsViewModelTests: XCTestCase {
     var cancellables = Set<AnyCancellable>()
 
     func testFetchLocations() async throws{
-            let expectation = XCTestExpectation(description: "Fetch locations")
-            
-            let locationWorker = MockLocationWorker()
-            let viewModel = LocationsViewModel(locationWorker: locationWorker)
-            
-            await viewModel.fetchLocations(for: "Earth")
-            
-            XCTAssertTrue(viewModel.locations.isEmpty, "No locations were loaded.")
+        let expectation = XCTestExpectation(description: "Fetch locations")
+
+        let location1 = Location()
+        let location2 = Location()
+
+        let locations = [location1, location2]
+        let locationWorker = MockLocationWorker(mockLocations: locations)
+        let viewModel = LocationsViewModel(locationWorker: locationWorker)
+
+        await viewModel.fetchLocations(for: "Earth")
+
+        DispatchQueue.main.asyncAfter(deadline: .now() + 5) {
+            XCTAssertTrue(!viewModel.locations.isEmpty, "No locations were loaded.")
             expectation.fulfill()
+        }
             
-            await fulfillment(of: [expectation], timeout: 10.0)
+        await fulfillment(of: [expectation], timeout: 10.0)
         
     }
 
@@ -47,11 +53,23 @@ class LocationsViewModelTests: XCTestCase {
     }
 
     func testRequestInitialSetOfItems() async {
-        let worker = MockLocationWorker()
+        let location1 = Location()
+        let location2 = Location()
+
+        let locations = [location1, location2]
+        let worker = MockLocationWorker(mockLocations: locations)
         let viewModel = LocationsViewModel(locationWorker: worker)
 
-        // Load initial locations
-        await viewModel.requestInitialSetOfItems()
+        let expectation = XCTestExpectation(description: "Fetching locations")
+         DispatchQueue.main.asyncAfter(deadline: .now() + 5) {
+             expectation.fulfill()
+         }
+         
+         // Load initial locations
+         await viewModel.requestInitialSetOfItems()
+         
+         // Wait for expectation
+         wait(for: [expectation], timeout: 10.0)
 
         // At this point, we should have some locations
         XCTAssert(!viewModel.locations.isEmpty, "Locations should have been fetched")

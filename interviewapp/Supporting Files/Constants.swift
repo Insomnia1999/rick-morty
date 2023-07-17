@@ -6,3 +6,12 @@
 //
 
 import Foundation
+
+struct Constants {
+    enum Network {
+        static let baseURLString = "https://rickandmortyapi.com/api/"
+        static let timeout: TimeInterval = 60
+    }
+    
+    static let DEFAULT_LANGUAGE = "es"
+}

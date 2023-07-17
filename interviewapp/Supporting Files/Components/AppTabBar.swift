@@ -27,7 +27,7 @@ struct AppTabBar<Content: View>: View {
     
     var contentView: some View {
         ZStack {
-            Color.white.edgesIgnoringSafeArea(.all)
+            Color.backgroundColor.edgesIgnoringSafeArea(.all)
             
             TabView(selection: $selectedTab) {
                 ForEach(Tab.allCases) { tab in
@@ -90,9 +90,9 @@ struct AppTabBar<Content: View>: View {
                             .matchedGeometryEffect(id: "Selected Tab", in: namespace)
                     }
                     HStack(spacing: 10) {
-                        Image(tab.icon)
+                        Image(systemName: tab.icon)
                             .font(.system(size: 20, weight: .semibold, design: .rounded))
-                            .foregroundColor(isSelected ? tab.color : .black.opacity(0.6))
+                            .foregroundColor(isSelected ? tab.color : .gray.opacity(0.6))
                             .rotationEffect(.degrees(rotationAngle))
                             .scaleEffect(isSelected ? 1 : 0.9)
                             .animation(.easeInOut, value: rotationAngle)
@@ -117,20 +117,6 @@ struct AppTabBar<Content: View>: View {
         
         private var isSelected: Bool {
             selectedTab == tab
-        }
-    }
-}
-struct AppTabBar_Previews: PreviewProvider {
-    static var previews: some View {
-        AppTabBar(selectedTab: .constant(Tab.characters)) { index in
-            switch index {
-            case .characters:
-                CharactersView()
-            case .episodes:
-                CharactersView()
-            case .locations:
-                CharactersView()
-            }
         }
     }
 }

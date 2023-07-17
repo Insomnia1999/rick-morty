@@ -10,13 +10,12 @@ import SwiftUI
 
 class AppState: ObservableObject {
     enum CurrentView {
-        case splash
         case main
-        case characterDetail(id: Int)
-        case locationsDetail(id: Int)
-        case episodesDetail(id: Int)
+        case characterDetail(id: String, screen: CharacterDestination)
+        case locationDetail(id: String)
+        case episodeDetail(id: String)
     }
     
-    @Published var switchView = CurrentView.splash
+    @Published var switchView = CurrentView.main
 }
 

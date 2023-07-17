@@ -12,7 +12,7 @@ struct LoadingView: View {
 
     var body: some View {
         ZStack {
-            Asset.paleGray.swiftUIColor.edgesIgnoringSafeArea(.all)
+            Color.tabBackgroundColor.edgesIgnoringSafeArea(.all)
             
             LottieView(state: LUStateData(type: .name("loading", .main), loopMode: .loop))
         }.frame(maxWidth: .infinity, maxHeight: .infinity)

@@ -15,22 +15,22 @@ struct ViewManager: View {
     var body: some View {
         Group {
             switch appState.switchView {
-            case .splash:
-                SplashView()
+            case .main:
+                TabBarView()
                     .environmentObject(appState)
                     .transition(transition)
-            case .main: TabBarView()
+            case let .characterDetail(id, screen):
+                CharacterDetailView(viewModel: CharacterDetailViewModel(id: id, screen: screen))
                     .environmentObject(appState)
                     .transition(transition)
-            case let .characterDetail(id):
-                SplashView()
+            case let .locationDetail(id):
+                LocationDetailView(viewModel: LocationDetailViewModel(id: id))
                     .environmentObject(appState)
-            case let .episodesDetail(id):
-                SplashView()
+                    .transition(transition)
+            case let .episodeDetail(id):
+                EpisodeDetailView(viewModel: EpisodeDetailViewModel(id: id))
                     .environmentObject(appState)
-            case let .locationsDetail(id):
-                SplashView()
-                    .environmentObject(appState)
+                    .transition(transition)
             }
         }//.animation(.default, value: appState.switchScene)
     }

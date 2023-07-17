@@ -6,3 +6,12 @@
 //
 
 import Foundation
+
+enum ScreenState {
+    case loading
+    case networkError
+    case noItems
+    case success
+    case error
+}
+
